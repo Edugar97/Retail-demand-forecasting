@@ -218,7 +218,11 @@ __marimo__/
 .streamlit/secrets.toml
 
 # Dataset files
-data/
+# Raw Kaggle data is not tracked; dashboard inputs and reports are
+data/*
+!data/dashboard/
 *.csv
+!data/dashboard/*.csv
+!reports/*.csv
 *.zip
 
